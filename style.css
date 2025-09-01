@@ -1,0 +1,419 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.grid {
+  width: 375px;
+  margin: 1rem auto;
+  padding-top: 1.5rem;
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+}
+
+/**
+*!--------ALL GRID CARDS-------------
+*/
+.grid-card {
+  margin: auto;
+  padding-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+/**
+*!--------FIRST CARD-----------
+*/
+.purple {
+  width: 90%;
+  background-color: hsl(256, 67%, 59%);
+}
+
+.ai-faster {
+  font-family: "DM Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1rem 2rem;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+.gold {
+  color: hsl(39, 100%, 71%);
+}
+
+.stars img {
+  width: 15rem;
+  margin: auto;
+}
+
+.five-star {
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 1rem 0 2rem 0;
+}
+
+/**
+*!-------SECOND CARD----------
+*/
+.white {
+  width: 90%;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.social img {
+  width: 90%;
+  margin: auto;
+}
+
+.multi-platforms {
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 1;
+  padding: 1rem;
+}
+
+/**
+*!-------THIRD CARD----------
+*/
+.yellow {
+  width: 90%;
+  background-color: hsl(39, 100%, 71%);
+}
+
+.posting-schedule {
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 1;
+  padding-top: 0.6rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.schedule img {
+  width: 14rem;
+  padding-block-end: 0;
+  padding: 0 1.5rem;
+}
+
+/**
+*!-------FOURTH CARD----------
+*/
+.purple-100 {
+  width: 90%;
+  background-color: hsl(254, 88%, 90%);
+}
+
+.schedule-media {
+  text-align: center;
+  padding: 1rem;
+}
+
+.days-of-week img {
+  width: 85%;
+  margin: auto;
+}
+
+.optimize-post {
+  font-family: DM Sans;
+  font-size: 18px;
+  color: hsl(0, 0%, 7%);
+  font-weight: 500;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+/**
+*!-------FIFTH CARD----------
+*/
+.purple-2 {
+  width: 90%;
+  background-color: hsl(256, 67%, 59%);
+}
+
+.grow-followers img {
+  width: 75%;
+  margin: 1rem auto;
+}
+
+.non-stop {
+  font-family: "DM Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1.5rem 3rem;
+  color: hsl(0, 0%, 100%);
+}
+
+/**
+*!-------SIXTH CARD----------
+*/
+.white-2 {
+  width: 90%;
+  background: hsl(0, 0%, 100%);
+}
+
+.fifty {
+  font-size: 2.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.faster-audience {
+  font-family: DM Sans;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 7%);
+  padding: 0.5rem 1.5rem;
+}
+
+.audience-growth img {
+  width: 15rem;
+  padding: 1rem 2rem 1.5rem;
+}
+
+/**
+*!-------SEVENTH CARD----------
+*/
+.yellow-100 {
+  width: 90%;
+  background: hsl(31, 66%, 93%);
+}
+
+.schedule-content {
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 1rem 2.5rem;
+  letter-spacing: -0.5px;
+  word-spacing: -2px;
+}
+
+.quicker {
+  color: hsl(256, 67%, 59%);
+}
+
+.create-post img {
+  width: 10rem;
+  margin: 0.5rem 2rem;
+}
+
+/**
+*!-------EIGHTTH CARD----------
+*/
+.yellow-2 {
+  width: 90%;
+  background: hsl(39, 100%, 71%);
+}
+
+.write-content {
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 1rem 2.5rem;
+  line-height: 1;
+}
+
+.ai-content img {
+  width: 17rem;
+  padding: 0 2.5rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  /**
+  *!--------nth:child(1)--------
+  */
+  .purple {
+    width: 75%;
+    margin-top: 0.2rem;
+  }
+  .ai-faster {
+    padding: 1rem 2rem;
+  }
+  .stars img {
+    width: 10rem;
+  }
+  /**
+  *!------nth:CHILD(2)--white-multi-platform-------------
+  */
+  .white {
+    width: 75%;
+    margin-left: 5rem;
+  }
+  .social img {
+    width: 100%;
+    height: 65px;
+    object-fit: cover;
+    object-position: left;
+    padding: 0 0.5rem;
+  }
+  .multi-platforms {
+    padding: 1rem 2rem 2rem 1.5rem;
+  }
+  /**
+  *!--------nth-child(3)--yellow-row-2------
+  */
+  .yellow {
+    width: 72%;
+    height: 14rem;
+  }
+  .posting-schedule {
+    text-align: left;
+    margin-left: -1rem;
+    padding: 0.7rem 2.5rem 2rem;
+  }
+  .schedule img {
+    object-fit: cover;
+    object-position: top;
+    width: 215px;
+    height: 70px;
+  }
+  /**
+  *!---------nth-child(4)--lite-purple-----------
+  */
+  .purple-100 {
+    width: 75%;
+    padding: 1rem 2rem;
+  }
+  .schedule-media {
+    text-align: left;
+    padding: 1rem 0;
+    line-height: 1;
+  }
+  .days-of-week img {
+    width: 220px;
+    height: 260px;
+    object-fit: cover;
+    object-position: left;
+    padding-right: 1.5rem;
+  }
+  .optimize-post {
+    margin: 1rem -0.5rem;
+    text-align: left;
+    padding: 0;
+    font-size: 1rem;
+  }
+  /**
+  *!---------nth-child(5)-----------
+  */
+  .purple-2 {
+    width: 28.5rem;
+    max-height: 15rem;
+    margin-top: -1rem;
+    margin-right: 7rem;
+    display: flex;
+  }
+  .grow-followers img {
+    width: 90%;
+    margin-left: 1rem;
+  }
+  .non-stop {
+    text-align: left;
+    font-size: 2rem;
+    padding: 3rem 1rem;
+  }
+  /**
+  *!-------nth-child(6)--------
+  */
+  .white-2 {
+    margin-right: -0.5rem;
+    margin-top: 0.5rem;
+    width: 75%;
+  }
+  .faster-audience {
+    font-size: 1rem;
+  }
+  /**
+  *!---------nth-child(7)---------
+  */
+  .yellow-100 {
+    margin-right: -4rem;
+    margin-top: 0.2rem;
+    width: 83%;
+  }
+  .schedule-content {
+    font-size: 1.5rem;
+    margin: 0 -1.5rem;
+    padding: 3rem 3.5rem;
+  }
+  .create-post img {
+    width: 8rem;
+    margin: -2rem auto;
+    padding-bottom: 7rem;
+  }
+  /**
+  *!-------nth-child(8)-----------------
+  */
+  .yellow-2 {
+    margin-left: 6.5rem;
+    margin-top: -9rem;
+    width: 85%;
+  }
+  .write-content {
+    font-size: 2rem;
+    text-align: left;
+    padding: 0.5rem 2rem 2rem 2rem;
+  }
+  .ai-content img {
+    width: 16rem;
+    margin: 1rem auto;
+  }
+  /**
+  *!----------------GRID-------------------
+  */
+  .grid-col-span-2 {
+    grid-column: span 2;
+  }
+  .grid-row-span-2 {
+    grid-row: span 2;
+  }
+  .grid {
+    width: min(90%, 80rem);
+    grid-template-columns: 270px 300px 300px 300px;
+    grid-template-rows: repeat(3, min-content);
+    gap: 14px;
+  }
+  .grid-card:nth-child(4) { /*lite purple*/
+    grid-column-start: 4;
+    grid-row-end: 1;
+    margin-top: 1%;
+    margin-left: -4.5rem;
+  }
+  .grid-card:nth-child(5) { /*bottom purple*/
+    grid-column-start: 3;
+    grid-row-end: 2;
+    margin: 0 0.5rem;
+  }
+  .grid-card:nth-child(2) { /*multi-platforms*/
+    grid-column-start: 2;
+    grid-row-end: 1;
+    margin-top: -1%;
+  }
+  .grid-card:nth-child(7) { /*create schedule*/
+    grid-column-start: 1;
+    grid-row-end: 1;
+  }
+  .grid-card:nth-child(8) { /*AI content yellow*/
+    grid-column-start: 1;
+    grid-row-end: 2;
+  }
+  .grid-card:nth-child(6) { /*FASTER AUDIENCE WHITE*/
+    grid-column-start: 2;
+  }
+  .grid-card:nth-child(3) { /*posting schedule*/
+    grid-column-start: 3;
+    margin: 0 0.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
